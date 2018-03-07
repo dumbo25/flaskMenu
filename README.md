@@ -26,14 +26,14 @@ Open a browser, and enter the following URL:
   * http://ha-hub.local:5000/
 
 # Directory structure:
-  * /home/pi
-  *  /ha-hub       : contains homepage.py
-  *    /app        : location for python code
-  *      /template : location for html templates
-  *      /static
-  *        /css    : location for css style sheets
-  *        /icons  : location for icons
-  *        /config : location for json configuration files
+  * /home/pi                          : home
+  * /home/pi/ha-hub                   : contains homepage.py
+  * /home/pi/ha-hub/app               : location for python code
+  * /home/pi/ha-hub/app/template      : location for html templates
+  * /home/pi/ha-hub/app/static
+  * /home/pi/ha-hub/app/static/css    : location for css style sheets
+  * /home/pi/ha-hub/app/static/icons  : location for icons
+  * /home/pi/ha-hub/app/static/config : location for json configuration files
 
 # Overview 
 Brief on how the program works:
