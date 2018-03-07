@@ -43,8 +43,10 @@ Brief on how the program works:
   * /home/pi/ha-hub/app/static/css/style.css        : defines fonts and appearnace of the pages
   * /home/pi/ha-hub/app/static/icons/*.png          : icons with links allow easy navigation
   * /home/pi/ha-hub/app/static/icons/templates
-  *   base.html                                     : the homepage inherits from this page
-  *   homepage.html                                 : yes, it only requires one page for as many pages as you want
+
+# Templates
+  * base.html                                     : the homepage inherits from this page
+  * homepage.html                                 : yes, it only requires one page for as many pages as you want
 
 # json and icons
 Within the json file and for a set of icons, the url must be unique. If a url is repeated, then the icons and the order will be messed up.
