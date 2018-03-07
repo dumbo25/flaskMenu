@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+
+<!--
+  row 1 = title
+  row 2 = google box
+  row 3 = tab menu
+  row 4-7 = icons
+
+  col 1 = side menu
+  col 2-7 = icons
+-->
+
+<div class="my-title">{{ title }}</div>
+
+<div class="google-box">
+  <form method="get" action="http://www.google.com/search">
+    <table border="0px" cellpadding="0px">
+      <tr>
+        <td width=150px> </td>
+        <td height="15px" width="43px" vertical-align="center" ><img src="{{url_for('static', filename='images/google.png')}}" alt="google"$
+        <td> </td>
+        <td>
+          <input type="text" name="q" size="45" style="color:#808080;" maxlength="255" value="Google search" onfocus="if(this.value==this.d$
+          <input type="hidden" name="sitesearch" value="google.com" />
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
+
+<!-- nested grids -->
+<div class="wrap-tabs">
+  <div class="box tab-menu">
+    <!-- <div class="nobox side-menu-tab"></div> -->
+    <div class="box t31">{{ page }}</div>
+    <div class="nobox t32"></div>
+    <div class="nobox t33"></div>
+    <div class="nobox t34"></div>
+    <div class="nobox t35"></div>
+    <div class="nobox t36"></div>
+    <div class="nobox t37"></div>
+  </div>
+</div>
+<div class="wrap-devices">
+  <div class="box devices">
+    <div class="side-menu">
+{% for key in pageSideMenu %}
+    <p class="side-menu-text"><a href="{{ pageSideMenu[key] }}">{{ key }}</a></p>
+{% endfor %}
+    </div>
+<!-- 
+  How do I even try to explain the following nonsense?
+  Jinja doesn't allow local variables to be set across a loop boundary so i=0 and i+=1 won't work
+  So, the hack is to create a list and add items to the list, and then get the length of the list
+  Please send your complaints to the jinja developers
+
+  Also, str(v) and int(v) don't work. Use v|string and v|int instead to cast the variable
+-->
+{% set cell = [] %}
+{% for link in pageIcons %}
+{%   set c = cell|length %}
+{%   set row = ((c / 6) + 4)|int %}
+{%   set col = (c % 6) + 2  %}
+{%   set s = "d" + row|string + col|string %}
+     <div class="box {{ s }}"><a href="{{ link }}" target="_blank"><img src="{{url_for('static', filename=pageIcons[link])}}" alt="{{ s }}"$
+{% set __ = cell.append(1) %}
+{% endfor %}
+  </div>
+</div>
+<!-- wrapper end -->
+{% endblock %}
