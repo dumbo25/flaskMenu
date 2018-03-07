@@ -17,8 +17,8 @@ icon based home page using flask and raspberry pi
 
 # Run program
 Start the program by running either:
-  /home/pi/ha-hub/homepage.py
-  /home/pi/ha-hub/homepage.py &
+  * /home/pi/ha-hub/homepage.py
+  * /home/pi/ha-hub/homepage.py &
 If using the second, you might want to turn off debug
 
 # Browser
@@ -26,14 +26,14 @@ Open a browser, and enter the following URL:
   http://ha-hub.local:5000/
 
 # Directory structure:
-  /home/pi
-    /ha-hub       : contains homepage.py
-      /app        : location for python code
-        /template : location for html templates
-        /static
-          /css    : location for css style sheets
-          /icons  : location for icons
-          /config : location for json configuration files
+  * /home/pi
+  **  /ha-hub       : contains homepage.py
+  ***    /app        : location for python code
+  ****      /template : location for html templates
+  ****      /static
+  *****        /css    : location for css style sheets
+  *****        /icons  : location for icons
+  *****        /config : location for json configuration files
 
 # Overview 
 Brief on how the program works:
