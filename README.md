@@ -2,20 +2,18 @@
 icon based home page using flask and raspberry pi
 
 # Description:
-  * Provide a unique homepage with easy navigation using icons
-  * A side menu allows sub-pages off the homepage
-  * Pages are configured using a json file, which is easy to edit with a text
-    editor
-  * I wanted to use flask and python to create a website, which could be easily
-    modified to use on other projects
+  * Provide a homepage with common links to commmon websites and using icons
+  * A side menu allows additional pages off the homepage
+  * Pages are configured using a json file, which contains URL and icon
+  * the json file is edited with a text editor
+  * I wanted to use flask and python to create a website, which could be easily modified to use on other projects
+
+# Instructable
 
 # Caveats:
-  * This was a learning experience. I am sure much of it could be done better by
-    anyone with more experience, skill or knowledge.
+  * This was a learning experience. I am sure much of it could be done better by anyone with more experience, skill or knowledge.
   * I moved files around a lot. So, I use full paths, rather than relative paths.
-  * While I installed flask and set up a virtual machine, I still don't understand
-    why I would use a virtual machine on a raspberry pi. And after a while, I
-    stopped using the virtual machine
+  * While I installed flask and set up a virtual machine, I still don't understand why I would use a virtual machine on a raspberry pi. And after a while, I stopped using the virtual machine
 
 # Run program
 Start the program by running either:
@@ -49,11 +47,9 @@ Brief on how the program works:
     homepage.html                                 : yes, it only requires one page for as many pages as you want
 
 # json and icons
-Within the json file and for a set of icons, the url must be unique.
-If a url is repeated, then the icons and the order will be messed up.
-Since the urls and icons are loaded as a dictionary, the url is the
-key for an icon. If two icons share a url, then the second icon will
+Within the json file and for a set of icons, the url must be unique. If a url is repeated, then the icons and the order will be messed up.
+
+Since the urls and icons are loaded as a dictionary, the url is the key for an icon. If two icons share a url, then the second icon will
 overwrite the first one.
 
-If an icon is edited and changed, but the change doesn't appear, then
-clear cached images in the browser.
+If an icon is edited and changed, but the change doesn't appear, then clear cached images in the browser.
