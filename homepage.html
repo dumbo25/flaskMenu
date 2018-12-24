@@ -67,7 +67,7 @@
 {%   set row = ((c / 6) + 4)|int %}
 {%   set col = (c % 6) + 2  %}
 {%   set s = "d" + row|string + col|string %}
-     <div class="box {{ s }}"><a href="{{ link }}" target="_blank"><img src="{{url_for('static', filename=pageIcons[link])}}" alt="{{ s }}"$
+     <div class="box {{ s }}"><a href="{{ link }}" target="_blank"><img src="{{url_for('static', filename=pageIcons[link])}}" alt="{{ s }}"></div>
 {% set __ = cell.append(1) %}
 {% endfor %}
   </div>
