@@ -13,15 +13,15 @@ icon based home page using flask and raspberry pi
 
 # Run program
 Download bloodmoon_setup.sh and run using
-  $ cd /home/pi
-  $ mkdir webserver
-  $ cd webserver
-  $ wget 
-  $ bash bloodmoon_setup.sh 
+  *  $ cd /home/pi
+  *  $ mkdir webserver
+  *  $ cd webserver
+  *  $ wget 
+  *  $ bash bloodmoon_setup.sh 
 
 Start the program by running either:
-  $ python3 /home/pi/webserver/bloodmoon.py
-  $ python3 /home/pi/webserver/bloodmoon.py &
+  *  $ python3 /home/pi/webserver/bloodmoon.py
+  *  $ python3 /home/pi/webserver/bloodmoon.py &
 If using the second, you might want to turn off debug
 
 # Browser
