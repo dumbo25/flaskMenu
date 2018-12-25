@@ -1,10 +1,10 @@
 from flask import render_template
-from app import app
+from bloodmoon import bloodmoon
 
 import json
 from collections import OrderedDict
 
-filename = "/home/pi/ha-hub/app/static/config/homepage.json"
+filename = "/home/pi/webserver/bloodmoon/static/config/homepage.json"
 
 with open(filename, "r") as f:
   allData = json.load(f, object_pairs_hook=OrderedDict)
@@ -13,15 +13,15 @@ pageTitle = {'title', allData['title']}
 pageSideMenu = allData['side menu']
 
 
-@app.route('/')
-@app.route('/index/', methods=['GET', 'POST'])
+@bloodmoon.route('/')
+@bloodmoon.route('/index/', methods=['GET', 'POST'])
 def homepage():
     pageIcons = allData['pages']['Home']['icons']
 
     templateData = {'page': 'Home', 'title': allData['title']}
     return render_template('homepage.html', **templateData, pageSideMenu=pageSideMenu, pageIcons=pageIcons)
 
-@app.route('/raspberrypi', methods=['GET', 'POST'])
+@bloodmoon.route('/raspberrypi', methods=['GET', 'POST'])
 def raspberrypi():
     pageIcons = allData['pages']['RaspberryPi']['icons']
 
