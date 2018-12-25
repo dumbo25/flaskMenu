@@ -26,7 +26,7 @@ If using the second, you might want to turn off debug
 
 # Browser
 Open a browser, and enter the following URL:
-  * http://ha-hub.local:5000/
+  * http://your-hostname.local:5000/
 
 # Directory structure:
   * /home/pi                                   # home
