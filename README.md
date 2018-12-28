@@ -10,46 +10,42 @@ icon based home page using flask and raspberry pi
 
 # Instructions
  https://sites.google.com/site/cartwrightraspberrypiprojects/home/other-projects/icon-based-home-page
+ 
+ Follow these instructions to ensure all permissions and software is installed
 
-# Run program
-Download bloodmoon_setup.sh and run using
-  *  $ cd /home/pi
-  *  $ mkdir webserver
-  *  $ cd webserver
-  *  $ wget 
-  *  $ bash bloodmoon_setup.sh 
+# Run command-line version using Flask's built-in webserver
+If the above instructions have been followed, then start a command-line version of the webserver by running:
+  *  $ python3 /var/www/RedMoon/redmoon_wzg.py
+  *  Open a browser, and enter the following URL:
+  *  http://your-hostname.local:5000/
+  *  CTRL-C to exit the command-line program
 
-Start the program by running either:
-  *  $ python3 /home/pi/webserver/bloodmoon.py
-  *  $ python3 /home/pi/webserver/bloodmoon.py &
-If using the second, you might want to turn off debug
-
-# Browser
-Open a browser, and enter the following URL:
-  * http://your-hostname.local:5000/
+With command-line version disabled, access an apache served webpage using 
+  *  Open a browser, and enter the following URL:
+  *  http://your-hostname.local/
 
 # Directory structure:
-  * /home/pi                                   # home
-  * /home/pi/webserver                         # contains bloodmoon.py and homedir.py
-  * /home/pi/webserver/bloodmoon               # location for python code
-  * /home/pi/webserver/bloodmoon/template      # location for html templates
-  * /home/pi/webserver/bloodmoon/static
-  * /home/pi/webserver/bloodmoon/static/css    # location for css style sheets
-  * /home/pi/webserver/bloodmoon/static/icons  # location for icons
-  * /home/pi/webserver/bloodmoon/static/config # location for json configuration files
+  * /var/www                               # home
+  * /var/www/RedMoon                       # contains redmoon.py and homedir.py
+  * /var/www/RedMoon/RedMoon               # location for python code
+  * /var/www/RedMoon/RedMoon/template      # location for html templates
+  * /var/www/RedMoon/RedMoon/static
+  * /var/www/RedMoon/RedMoon/static/css    # location for css style sheets
+  * /var/www/RedMoon/RedMoon/static/icons  # location for icons
+  * /var/www/RedMoon/RedMoon/static/config # location for json configuration files
 
 # Overview 
 Brief on how the program works:
-  * $ python3 /home/pi/webserver/bloodmoon.py                # starts the website running
-  * /home/pi/webserver/bloodmoon/views.py                    # renders each page in the website
-  * /home/pi/webserver/bloodmoon/static/config/homepage.json # defines all of the pages and the submenu
-  * /home/pi/webserver/bloodmoon/static/css/style.css        # defines fonts and appearnace of the pages
-  * /home/pi/webserver/bloodmoon/static/icons/*.png          # icons with links allow easy navigation
-  * /home/pi/webserver/bloodmoon/static/icons/templates
+  * $ python3 /var/www/RedMoon/redmoon.py                # starts the website running
+  * /var/www/RedMoon/RedMoon/views.py                    # renders each page in the website
+  * /var/www/RedMoon/RedMoon/static/config/homepage.json # defines all of the pages and the submenu
+  * /var/www/RedMoon/RedMoon/static/css/style.css        # defines fonts and appearnace of the pages
+  * /var/www/RedMoon/RedMoon/static/icons/*.png          # icons with links allow easy navigation
+  * /var/www/RedMoon/RedMoon/static/icons/templates
 
 # Templates
-  * /home/pi/webserver/bloodmoon/templates/base.html         # the homepage inherits from this page
-  * /home/pi/webserver/bloodmoon/templates/homepage.html     # yes, it only requires one page for as many pages as you want
+  * /home/pi/RedMoon/RedMoon/templates/base.html         # the homepage inherits from this page
+  * /home/pi/RedMoon/RedMoon/templates/homepage.html     # yes, it only requires one page for as many pages as you want
 
 # json and icons
 Within the json file and for a set of icons, the url must be unique. If a url is repeated, then the icons and the order will be messed up.
