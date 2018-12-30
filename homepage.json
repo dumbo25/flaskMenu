@@ -2,27 +2,444 @@
   "title":"Jeff's Home Page",
   "side menu":
   { "Home":"http://home-hub.local/",
-    "Austin":"link",
-    "Automation":"link",
-    "Charities":"link",
-    "Colorado":"link",
-    "Crowd Fund":"link",
-    "Education":"link",
-    "Entertainment":"link",
-    "Finance":"link",
-    "Gardening":"link",
-    "Home DIY":"link",
-    "MacBook":"link",
-    "Network":"link",
-    "Phone":"link",
+    "Austin":"austin",
+    "Automation":"automation",
+    "Charities":"charities",
+    "Colorado":"colorado",
+    "Crowd Fund":"crowdfund",
+    "Education":"education",
+    "Entertainment":"entertainment",
+    "Finance":"finance",
+    "Gardening":"gardening",
+    "Home DIY":"homediy",
+    "MacBook":"macbook",
+    "Network":"network",
+    "Phone":"phone",
     "RaspberryPi":"raspberrypi",
-    "Shopping":"link",
-    "Texas":"link",
-    "TV":"link",
-    "Wi-Fi":"link"
+    "Shopping":"shopping",
+    "Texas":"texas",
+    "Television":"television",
+    "Wi-Fi":"wifi"
   },
   "pages":
-  { "RaspberryPi":
+  {
+    "Austin":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Automation":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Charities":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Colorado":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Crowd Fund":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Education":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Entertainment":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Finance":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Gardening":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Home DIY":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "MacBook":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Network":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Phone":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "RaspberryPi":
     { "icons":
       {
         "raspberrypi.org":"icons/raspberry-pi.png",
@@ -54,6 +471,136 @@
         "thepihut.com":"icons/pihut.png"
       }
     },
+    "Shopping":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+
+    "Television":
+    { "icons":
+      {
+        "raspberrypi.org":"icons/raspberry-pi.png",
+        "instructables.com":"icons/instructables.png",
+        "github.com":"icons/github.png",
+        "python.org":"icons/python.png",
+        "elinux.org/RPi_Hub":"icons/linux.png",
+        "dietpi.com":"icons/dietpi.png",
+
+        "kodi.tv":"icons/kodi.png",
+        "opensprinkler.com":"icons/opensprinkler.png",
+        "t54.com":"icons/empty.png",
+        "t55.com":"icons/empty.png",
+        "192.168.1.254":"icons/att-gateway.png",
+        "t57.com":"icons/empty.png",
+
+        "t62.com":"icons/empty.png",
+        "t63.com":"icons/empty.png",
+        "t64.com":"icons/empty.png",
+        "t65.com":"icons/empty.png",
+        "t66.com":"icons/empty.png",
+        "canakit.com":"icons/canakit.png",
+
+        "amazon.com":"icons/amazon.png",
+        "adafruit.com":"icons/adafruit.png",
+        "microcenter.com":"icons/microcenter.png",
+        "mouser.com":"icons/mouser.png",
+        "element14.com":"icons/element14.png",
+        "thepihut.com":"icons/pihut.png"
+      }
+    },
+    "Texas":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+    "Wi-Fi":
+    { "icons":
+      {
+        "d42.com":"icons/empty.png",
+        "d43.com":"icons/empty.png",
+        "d44.com":"icons/empty.png",
+        "d45.com":"icons/empty.png",
+        "d46.com":"icons/empty.png",
+        "d47.com":"icons/empty.png",
+
+        "d52.com":"icons/empty.png",
+        "d53.com":"icons/empty.png",
+        "d54.com":"icons/empty.png",
+        "d55.com":"icons/empty.png",
+        "d56.com":"icons/empty.png",
+        "d57.com":"icons/empty.png",
+
+        "d62.com":"icons/empty.png",
+        "d63.com":"icons/empty.png",
+        "d64.com":"icons/empty.png",
+        "d65.com":"icons/empty.png",
+        "d66.com":"icons/empty.png",
+        "d67.com":"icons/empty.png",
+
+        "d72.com":"icons/empty.png",
+        "d73.com":"icons/empty.png",
+        "d74.com":"icons/empty.png",
+        "d75.com":"icons/empty.png",
+        "d76.com":"icons/empty.png",
+        "d77.com":"icons/empty.png"
+      }
+    },
+
     "Home":
     { "icons":
       {
@@ -86,5 +633,7 @@
         "192.168.1.72/":"icons/home-security.png"
       }
     }
+
   }
 }
+
